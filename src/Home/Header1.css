@@ -1,0 +1,39 @@
+/* Header1.css */
+
+/* Header1.css */
+
+.header {
+    margin-top: 28px;
+    padding: 5%;
+    /* Use a percentage for padding to make it responsive */
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 4vw;
+    /* Use viewport width for font size to make it responsive */
+    height: auto;
+    /* 100% of the viewport height; covers the entire page */
+}
+
+/* Add a media query for smaller screens */
+@media (max-width: 768px) {
+    .header {
+        font-size: 6vw;
+        /* Adjust font size for smaller screens */
+    }
+}
+.image-container {
+    height: 10px;
+    background-color: #f70e0e;
+    /* Choose a suitable color for the divider */
+    margin: 150px 50px;
+}
+
+.header img {
+    width: 60%;
+    /* Adjust the width as needed (e.g., 50% of the parent container) */
+    height: auto;
+    /* Automatically adjust the height to maintain aspect ratio */
+    margin-top: -250px;
+    margin-bottom: 250px;
+}
